@@ -122,6 +122,7 @@ function Tdee() {
                             Calcular
                         </Button>
                         <Button
+                            href="/tdee"
                             className="mt-1 container w-50 float-end"
                             variant="secondary"
                         >

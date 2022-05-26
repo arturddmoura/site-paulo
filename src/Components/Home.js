@@ -3,7 +3,7 @@ import { Col, Container, ToastBody, Button } from "react-bootstrap";
 function Home() {
     return (
         <Container>
-            <Col className="container center" md={{ span: 11 }}>
+            <Col className="container center">
                 <br></br>
                 <ToastBody>Lorem Ipsum</ToastBody>
                 <ToastBody>

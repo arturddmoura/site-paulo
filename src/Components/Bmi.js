@@ -81,6 +81,7 @@ function Bmi() {
                             Calcular
                         </Button>
                         <Button
+                            href="/imc"
                             className="mt-1 container w-50 float-end"
                             variant="secondary"
                         >
