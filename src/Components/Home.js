@@ -1,4 +1,4 @@
-import { Col, Container, ToastBody } from "react-bootstrap";
+import { Col, Container, ToastBody, Button } from "react-bootstrap";
 
 function Home() {
     return (
@@ -18,6 +18,17 @@ function Home() {
                     sagittis, placerat est vel, rutrum libero. Pellentesque
                     porta sem vel diam pretium, eu luctus felis finibus.
                 </ToastBody>
+                <Button
+                    href="https://api.whatsapp.com/send?phone=5533984600772&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20consultoria."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="container center"
+                    color="green"
+                    variant="success"
+                    style={{ fontSize: "1.3rem" }}
+                >
+                    Clique aqui para marcar uma consultoria pelo WhatsApp
+                </Button>
             </Col>
         </Container>
     );

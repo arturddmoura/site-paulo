@@ -14,7 +14,7 @@ function Header() {
                         border="10px"
                         alt="Logo"
                     />
-                    <Navbar.Brand href="/">Paulo Cesar</Navbar.Brand>
+                    <Navbar.Brand href="/">Paulo Cezar</Navbar.Brand>
                     <Nav className="me-auto">
                         <NavDropdown
                             title="Testes"
