@@ -5,6 +5,7 @@ function Home() {
         <Container>
             <Col className="container center">
                 <br></br>
+                <br></br>
                 <h6>Lorem Ipsum</h6>
                 <br></br>
                 <h6>
