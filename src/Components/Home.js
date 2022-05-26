@@ -1,5 +1,6 @@
 import { Col, Container, Button } from "react-bootstrap";
 import { Text } from "react-bootstrap-text";
+import Footer from "./Footer.js";
 
 function Home() {
     return (
@@ -33,6 +34,7 @@ function Home() {
                     Clique aqui para marcar uma consultoria pelo WhatsApp
                 </Button>
             </Col>
+            <Footer />
         </Container>
     );
 }
