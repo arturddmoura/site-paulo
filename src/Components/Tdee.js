@@ -129,8 +129,11 @@ function Tdee() {
                             Limpar
                         </Button>
                     </Form.Group>
+                    <br></br>
                 </Form>
+                <br></br>
             </Col>
+            <br></br>
         </Container>
     );
 }

@@ -15,6 +15,7 @@ function Header() {
                         alt="Logo"
                     />
                     <Navbar.Brand href="/">Paulo Cezar</Navbar.Brand>
+                    <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Nav className="me-auto">
                         <NavDropdown
                             title="Testes"

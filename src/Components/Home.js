@@ -1,12 +1,13 @@
-import { Col, Container, ToastBody, Button } from "react-bootstrap";
+import { Col, Container, Button } from "react-bootstrap";
 
 function Home() {
     return (
         <Container>
             <Col className="container center">
                 <br></br>
-                <ToastBody>Lorem Ipsum</ToastBody>
-                <ToastBody>
+                <h6>Lorem Ipsum</h6>
+                <br></br>
+                <h6>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Vestibulum bibendum dapibus sodales. Cras porta lacus eu
                     tellus dapibus suscipit. Fusce mi nisl, posuere ac aliquet
@@ -17,7 +18,8 @@ function Home() {
                     turpis in, blandit suscipit neque. Nullam sit amet odio
                     sagittis, placerat est vel, rutrum libero. Pellentesque
                     porta sem vel diam pretium, eu luctus felis finibus.
-                </ToastBody>
+                </h6>
+                <br></br>
                 <Button
                     href="https://api.whatsapp.com/send?phone=5533984600772&text=Ol%C3%A1!%20Gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20consultoria."
                     target="_blank"

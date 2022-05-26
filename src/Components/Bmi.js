@@ -33,28 +33,29 @@ function Bmi() {
             <Col className="container center justify-content-center">
                 {obeso ? (
                     <Alert key="danger" variant="danger">
-                        Você está obeso, IMC: {obeso}
+                        Você está obeso.<br></br> IMC: {obeso}
                     </Alert>
                 ) : (
                     ""
                 )}
                 {pesoabaixo ? (
                     <Alert key="danger" variant="danger">
-                        Seu IMC está abaixo do normal IMC: {pesoabaixo}
+                        Seu IMC está abaixo do normal.<br></br> IMC:{" "}
+                        {pesoabaixo}
                     </Alert>
                 ) : (
                     ""
                 )}
                 {normal ? (
                     <Alert key="success" variant="success">
-                        Seu IMC está normal IMC: {normal}
+                        Seu IMC está normal.<br></br> IMC: {normal}
                     </Alert>
                 ) : (
                     ""
                 )}
                 {sobrepeso ? (
                     <Alert key="warning" variant="warning">
-                        Seu IMC está acima normal IMC: {sobrepeso}
+                        Seu IMC está acima normal.<br></br> IMC: {sobrepeso}
                     </Alert>
                 ) : (
                     ""
