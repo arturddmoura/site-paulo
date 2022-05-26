@@ -51,7 +51,7 @@ function Tdee() {
             <br></br>
             {sucess ? (
                 <Container>
-                    <Col className="container center w-50 justify-content-center">
+                    <Col className="container center justify-content-center">
                         <Alert key="info" variant="info">
                             Sua <strong>taxa metabólica basal</strong> é de:{" "}
                             <strong>{bmrDiario}</strong> calorias.<br></br>
