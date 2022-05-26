@@ -99,7 +99,7 @@ function Tdee() {
                         <Form.Control
                             className="mt-1"
                             type="number"
-                            placeholder="Insira seu idade:"
+                            placeholder="Insira sua idade:"
                             onChange={(res) => setIdade(res.target.value)}
                         />
                         <Form.Select
